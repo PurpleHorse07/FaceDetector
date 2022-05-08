@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 Uri img = data.getData();
                 try {
                     if (img != null) {
-                        imageView
+                        //imageView
                         image = FirebaseVisionImage.fromFilePath(this, img);
                         carryOn();
                     } else
